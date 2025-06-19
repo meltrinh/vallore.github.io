@@ -49,18 +49,28 @@
             <h1>Melody Trinh</h1>
           </div>
           <div class="about-content">
-            <p class="cursive">Welcome to my portfolio!</p>
+            <p class="cursive">Contact Me</p>
             <p>
-              Here you'll find a collection of my current and past web design
-              projects, all crafted just for fun.
+                Thank you for your interest. Please fill in the information if you would like to get in touch with me!
             </p>
             <p>
-              While I may not boast fancy titles or elaborate designs, each
-              project represents my interest for coding and creating in the
-              digital realm. Take a browse through my work and get a glimpse
-              into my journey as a web enthusiast. Thanks for stopping by!
+                <form action="" id="contact" action="/contact" method="post">
+                <ul>
+                    <li>
+                        <label>Name</label>
+                        <input type="text" name="FirstLastname" placeholder="e.g Jane Doe"  required>
+                    </li>
+                     <li>
+                        <label>Email</label>
+                        <input type="text" placeholder="e.g. jane.doe@email.com" required>
+                    </li>
+                    <label>Message</label><br>
+                    <textarea name="message" id="message" cols="30" rows="5" placeholder="e.g. Write your message here" minlength="40" maxlength="400" required></textarea>
+                    <button class="contact-btn">
+                        <span>Submit</span>
+                      </button>
+            </form>
             </p>
-            <p class="signature">Melody</p>
           </div>
           <hr />
           <div class="nav">
